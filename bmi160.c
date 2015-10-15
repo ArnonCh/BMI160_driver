@@ -6922,8 +6922,8 @@ u8 v_channel_u8, u8 v_intr_output_type_u8)
  *	The value of output enable of interrupt enable
  *	value    | Behaviour
  * ----------|-------------------
- *  0x01     |  BMI160_INPUT
- *  0x00     |  BMI160_OUTPUT
+ *  0x01     |  BMI160_OUTPUT_ENABLE
+ *  0x00     |  BMI160_OUTPUT_DISABLE
  *
  *
  *
@@ -6983,8 +6983,8 @@ u8 v_channel_u8, u8 *v_output_enable_u8)
  *	The value of output enable of interrupt enable
  *	value    | Behaviour
  * ----------|-------------------
- *  0x01     |  BMI160_INPUT
- *  0x00     |  BMI160_OUTPUT
+ *  0x01     |  BMI160_OUTPUT_ENABLE
+ *  0x00     |  BMI160_OUTPUT_DISABLE
  *
  *
  *

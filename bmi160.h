@@ -3224,6 +3224,10 @@ BMI160_USER_STEP_CONFIG_1_ADDR
 #define BMI160_INPUT	0x01
 #define BMI160_OUTPUT	0x00
 
+#define BMI160_OUTPUT_ENABLE	0x01
+#define BMI160_OUTPUT_DISABLE	0x00
+
+
 /**************************************************/
 /**\name	INTERRUPT TAP SOURCE ENABLE    */
 /*************************************************/
